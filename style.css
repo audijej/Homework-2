@@ -1,19 +1,19 @@
-* {
-    box-sizing: border-box;
-}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
 
 /* #pups {
     image-orientation: flip;
     -webkit-transform: rotate(90deg);
 } */
 
-body {
+.bg {
     background-image: url("./photos/PortfolioPic1.JPG");
+    height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    background-attachment: fixed;
 }
 
 .container-fluid {
