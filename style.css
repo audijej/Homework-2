@@ -1,7 +1,7 @@
-body, html {
+/* body, html {
     height: 100%;
     margin: 0;
-  }
+  } */
 
 .hero-text {
     text-align: center;
@@ -20,27 +20,55 @@ body, html {
 }
 
 .bg {
-    background-image: url("./photos/PortfolioPic1.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos/PortfolioPic1.JPG");
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0;
+
+    
 }
+
+.bg2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos/aboutPageBackground.JPG");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    color: white
+}
+
+#portfolioBG {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./photos/portfolioPageBackground.JPG");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    color: white}
 
 .container-fluid {
     padding-bottom: 50px;
 }
 
-.navbar {
-    background-color: rgba(72, 198, 248, 0.95);
+/* .navbar {
+    background-color: rgba(142, 218, 248, 0.95);
+} */
+
+#aboutMeNavbar {
+
 }
 
 #Home {
-    font-size: 30px;
-    background-color: rgb(15, 15, 15);
+    font-size: 10px;
     padding: 20px;
     color: gold;
+}
+
+.fa-home {
+    font-size: 50px;
 }
 
 .navbar-container {
@@ -76,65 +104,6 @@ p {
     text-align: center;
 }
 
-.jumbotron {
-    text-align: center;
-    margin: 50px;
-    background-color: salmon ;
-    opacity: 0.75;
-}
-
-
-.jumbotron:hover {
-    text-align: center;
-    margin: 50px;
-    background-color: salmon ;
-    opacity: 1;
-}
-
-
-.jumbotron2 {
-    text-align: center;
-    margin: 50px;
-    background-color: salmon ;
-    opacity: 0.75;
-}
-
-.jumbotron2:hover {
-    text-align: center;
-    margin: 50px;
-    background-color: salmon ;
-    opacity: 1;
-}
-
-
-.jumbotron3 {
-    text-align: center;
-    margin: 50px;
-    background-color: salmon ;
-    opacity: 0.75;
-}
-
-.jumbotron3:hover {
-    text-align: center;
-    margin: 50px;
-    background-color: salmon ;
-    opacity: 1;
-}
-
-
-.jumbotron4 {
-    text-align: center;
-    margin: 50px;
-    background-color: salmon ;
-    opacity: 0.75;
-}
-
-.jumbotron4:hover {
-    text-align: center;
-    margin: 50px;
-    background-color: salmon ;
-    opacity: 1;
-}
 
 .form-group {
     text-align: center;
@@ -146,16 +115,40 @@ p {
     text-align: center;
 }
 
-a {
-    font-size: 25px;
+#portfolio-btn {
+    font-size: 20px;
+    background-color: black;
+    color: white;
 }
 
-a:hover {
-    font-size: 50px;
+#portfolio-btn:hover {
+background-color: purple;
+transition: .5s ease-in-out;
+}
+
+.media {
+    margin-left: 28%;
+}
+
+.social-media-icon {
+    display: inline-block;
+    list-style: none;
+    padding: 50px;
+}
+
+i {
+    font-size: 70px;
+    text-align: center;
+}
+
+i:hover {
+    color: purple;
+    transition: .7s;
+    transform: rotate(360deg);
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 50px;
